@@ -231,7 +231,7 @@ public class Tela2 {
 
 		
 		Icon imgl = new ImageIcon(getClass().getResource("foto.png"));
-		JLabel img = new JLabel("lbFoto", imgl, SwingConstants.LEFT);
+		JLabel img = new JLabel("", imgl, SwingConstants.CENTER);
 		img.setBounds(681, 58, 247, 209);
 		Cadastro.add(img);
 
